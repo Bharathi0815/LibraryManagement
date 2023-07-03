@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+h1 {
+	color:black;
+}
+
+body {
+	background-color:lightblue;
+	
+	
+
+}
+
+
+.navbar {
+    background-color:orange;
+    
+    
+}
+.nav-link
+{
+	
+	color:red;
+}
+
+.navbar-brand
+{
+	
+	color:black;
+}
+.img
+{
+	
+	background-image: url('${pageContext.request.contextPath}/images/tree.jpg');
+				    background-repeat: no-repeat;
+				    background-size: cover;
+				    background-position: center;
+				    height: 100vh; 
+				    margin: 0; 
+				    padding: 0; 
+}
+
+.center {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
